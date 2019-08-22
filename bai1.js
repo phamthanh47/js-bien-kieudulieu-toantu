@@ -1,0 +1,14 @@
+let inputdiemvatly, inputdiemhoahoc,inputdiemsinhhoc;
+let tongdiem;
+let diemtb;
+ inputdiemhoahoc = prompt("nhap diem hoa hoc: ");
+ inputdiemsinhhoc = prompt("nhap diem sinh hoc: ");
+ inputdiemvatly = prompt (" nhap diem vat ly: ");
+let diemvatly= parseInt(inputdiemvatly);
+let diemsinhhoc = parseInt(inputdiemsinhhoc);
+let diemhoahoc = parseInt(inputdiemhoahoc);
+tongdiem = diemvatly +diemhoahoc+diemsinhhoc;
+document.write("tong diem : " + tongdiem );
+document.write("<br/>");
+diemtb = tongdiem/3;
+document.write("diem trung binh : " + diemtb);

@@ -1,0 +1,10 @@
+const _PI = 3.14;
+let inputR;
+inputR = prompt("nhập bán kính hình tròn : ");
+let R = parseInt(inputR);
+let S= R * R*  _PI;
+let P = R * 2* _PI;
+document.write('<br/>');
+document.write("diện tích hình tròn là : " + S );
+document.write('<br/>');
+document.write(" chu vi hình tròn là : " + P);
